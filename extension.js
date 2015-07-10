@@ -55,12 +55,12 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Baladita's Bot",
+        botName: "Farofa's Bot",
         language: "portuguese",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: true, // true or false
-        chatLink: "https://rawgit.com/PrincessDie/Baladita-Bot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/BotFarofa/Farofa-Bot/master/lang/pt.json",
         maximumAfk: 60,
         afkRemoval: false,
         maximumDc: 30,
@@ -72,36 +72,36 @@
         cycleGuard: true,
         maximumCycletime: 10,
         voteSkip: true,
-        voteSkipLimit: 10,
+        voteSkipLimit: 20,
         timeGuard: true,
-        maximumSongLength: 06,
+        maximumSongLength: 8,
         autodisable: false,
         commandCooldown: 30,
-        usercommandsEnabled: true,
+        usercommandsEnabled: false,
         lockskipPosition: 3,
         lockskipReasons: [
-            ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+        	["tema", "A música não se encaixa nos padrões da sala. "],
+        	["op", "Essa música está na lista OP. "],
+        	["historico", "A música ainda está no histórico. "],
+        	["mix", "Você tocou um mix (muito longo) - não permitido. "],
+        	["som", "A música que você tocou tinha má qualidade ou estava sem som. "],
+        	["nsfw", "A música que você tocou é NSFW (impróprio). "],
+        	["indisponivel", "A música que você tocou está indisponível. "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "!roulette",
         filterChat: false,
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: "[soon]",
+        rulesLink: null,
         themeLink: null,
-        fbLink: null,
+        fbLink: "https://facebook.com/farofadasdivaspop",
         youtubeLink: null,
-        website: null,
+        website: "http://farofa-pop.blogspot.com.br",
         intervalMessages: [],
         messageInterval: 5,
         songstats: false,
@@ -113,6 +113,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/PrincessDie/Baladita-Bot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/BotFarofa/Farofa-Bot/master/basicBot.js", extend);
 
 }).call(this);
