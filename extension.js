@@ -63,7 +63,7 @@
         chatLink: "https://rawgit.com/BotFarofa/Farofa-Bot/master/lang/pt.json",
         maximumAfk: 60,
         afkRemoval: false,
-        maximumDc: 30,
+        maximumDc: 60,
         bouncerPlus: true,
         blacklistEnabled: true,
         lockdownEnabled: false,
