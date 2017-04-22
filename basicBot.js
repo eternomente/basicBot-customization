@@ -185,14 +185,14 @@
         name: "basicBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/imTryZ/basicBot/master/basicBot.js",
-        cmdLink: "http://goo.gl/U2R2Nq",
+        cmdLink: "https://aindanaotem.com",
         chatLink: "https://rawgit.com/imTryZ/basicBot/master/lang/pt.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "caliBot",
+            botName: "PlanetaPlug",
             language: "portuguese",
             chatLink: "https://rawgit.com/imTryZ/basicBot/master/lang/pt.json",
             startupCap: 1, // 1-200
@@ -264,17 +264,17 @@
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
             motdEnabled: false,
-            motdInterval: 5,
-            motd: "Mensagem temporária do dia",
+            motdInterval: 15,
+            motd: "Visite nosso fórum! https://www.planetaminecraft.com.br/forum/",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: "/me No momento não temos uma página no facebook, porém, o link de nosso fórum é http://goo.gl/9ku6fp",
-            youtubeLink: "/me No momento não temos um canal no youtube, porém, o link de nosso fórum é http://goo.gl/9ku6fp",
-            website: "/me O link de nosso fórum é http://goo.gl/9ku6fp",
+            fbLink: "/me https://www.facebook.com/PlanetaMinecraftBR/",
+            youtubeLink: "/me No momento não temos um canal no youtube, porém o link de nosso fórum é https://www.planetaminecraft.com.br/forum/",
+            website: "/me O link de nosso fórum é https://www.planetaminecraft.com.br/forum/",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -735,6 +735,7 @@
                         catch (e) {
                             API.chatLog('Error setting' + bl + 'blacklist.');
                             console.log('Error setting' + bl + 'blacklist.');
+
                             console.log(e);
                         }
                     }
@@ -2644,7 +2645,7 @@
             },
             
             lemonCommand: {
-                command: 'lemon',
+                command: 'Ciramaz',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2657,7 +2658,7 @@
             },
             
              pirateCommand: {
-                command: 'pirate',
+                command: 'pirata',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2671,7 +2672,7 @@
             
             
              hyubbCommand: {
-                command: 'hyubb',
+                command: 'kaoS',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2684,7 +2685,7 @@
             },
             
             purchaseCommand: {
-                command: ['assinar'],
+                command: ['assi13344131nar'],
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -2800,7 +2801,7 @@
             },
 
             rulesCommand: {
-                command: 'rules',
+                command: 'regras',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -3194,7 +3195,7 @@
             },
 
             usercmdcdCommand: {
-                command: 'usercmdcd',
+                command: 'comandosuser',
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
@@ -3253,7 +3254,7 @@
             },
 
             voteskipCommand: {
-                command: 'voteskip',
+                command: 'votarpular',
                 rank: 'manager',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
